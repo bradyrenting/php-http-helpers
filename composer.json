@@ -1,0 +1,48 @@
+{
+    "name": "bradyrenting/php-http-helpers",
+    "description": "Simplifies working with HTTP in your PHP web application, providing a set of helpers representing HTTP values",
+    "keywords": [
+        "bradyrenting",
+        "php-http-helpers"
+    ],
+    "homepage": "https://github.com/bradyrenting/php-http-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brady Renting",
+            "email": "dev@bradyrenting.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.20",
+        "laravel/pint": "^1.2",
+        "spatie/ray": "^1.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "BradyRenting\\HttpHelpers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BradyRenting\\HttpHelpers\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
