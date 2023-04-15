@@ -6,7 +6,7 @@
 
 A set of constants that correspond to HTTP values, allowing you to easily set the appropriate status code for your HTTP responses for example, with IDE support for definitions.
 
-This package was inspired by the [official Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status).
+This package was inspired by the [official Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP).
 
 ## Installation
 
